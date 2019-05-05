@@ -1,0 +1,8 @@
+Fixed to deal with settings.xml version 2.0
+Create now the file advancedsettings.xml when option 'write to file' is selected
+
+0.8.6
+Fixed cachemembuffer when set to 0
+
+0.8.5
+Initial Release
