@@ -871,9 +871,12 @@ def buildsection(settingid, dir_path):
             except:
                 pass
             if 'DISABLED' not in s:
-                rootid = value.split('&lt;&gt;')[0]
-                id = value.split('&lt;&gt;')[1]
-                id = id.replace('_','')
+                try:  
+                    rootid = value.split('&lt;&gt;')[0]
+                    id = value.split('&lt;&gt;')[1]
+                    id = id.replace('_','')
+                except:
+                    break
                 if '$' in id:
                     multi = "two"
                     splitid = id.split('$')
