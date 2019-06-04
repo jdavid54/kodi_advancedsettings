@@ -1426,7 +1426,7 @@ elif mode == 430:
     pathsubstitution(name)
 	
 elif mode == 500:
-    write_xml(name,list)
+    write_xml(ACTIVESETTINGSFILE)
 	
 
 		
