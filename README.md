@@ -1,12 +1,11 @@
-#  cache 
+#Links
 
-ref : https://kodi.wiki/view/Advancedsettings.xml#cache
+    ref : https://kodi.wiki/view/Advancedsettings.xml#cache
+
+    ref : https://kodi.wiki/view/HOW-TO:Modify_the_video_cache
 
 2.8.4 cache
 
-See also: HOW-TO:Modify the cache
-
-<cache>
  
    memorysize=0                          <!--
     
@@ -31,8 +30,6 @@ See also: HOW-TO:Modify the cache
      This factor determines the max readrate in terms of readfactor * avg bitrate of a video file. 
 
      This can help on bad connections to keep the cache filled. It will also greatly speed up buffering. Default value 4.0. -->
-
-</cache>
 
 
 
