@@ -828,7 +828,7 @@ def edit_setting(name,url,iconimage,list,options):
         ADDON.setSetting(name, value=str(data))
         xbmc.executebuiltin("Container.Refresh")
 	
-def write_xml(dir_path):
+def write_xml(name,dir_path):
     count = 0
     readsettings = read_from_file(SETTINGS_PATH)
     settings = regex_get_all(readsettings, '<setting ', '/setting>')
@@ -1426,7 +1426,7 @@ elif mode == 430:
     pathsubstitution(name)
 	
 elif mode == 500:
-    write_xml(name)
+    write_xml(name,list)
 	
 
 		
